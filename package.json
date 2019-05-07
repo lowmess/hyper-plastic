@@ -1,9 +1,12 @@
 {
   "name": "hyper-plastic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A theme for Hyper based on Will Stone's Plastic theme",
   "main": "index.js",
-  "files": ["index.js", "preview.png"],
+  "files": [
+    "index.js",
+    "preview.png"
+  ],
   "scripts": {
     "precommit": "lint-staged"
   },
