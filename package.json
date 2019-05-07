@@ -16,9 +16,8 @@
   },
   "keywords": [
     "hyper",
-    "hyperterm",
-    "plastic",
-    "theme"
+    "hyper-theme",
+    "plastic"
   ],
   "author": "Alec Lomas <alec@lowmess.com>",
   "license": "MIT",
