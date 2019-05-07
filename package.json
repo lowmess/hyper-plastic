@@ -1,0 +1,38 @@
+{
+  "name": "hyper-plastic",
+  "version": "0.0.0",
+  "description": "A theme for Hyper based on Will Stone's Plastic theme",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowmess/hyper-plastic.git"
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "plastic",
+    "theme"
+  ],
+  "author": "Alec Lomas <alec@lowmess.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lowmess/hyper-plastic/issues"
+  },
+  "homepage": "https://github.com/lowmess/hyper-plastic#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-lowmess": "^2.4.0",
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.6",
+    "prettier": "^1.17.0"
+  },
+  "lint-staged": {
+    "*.{js,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
