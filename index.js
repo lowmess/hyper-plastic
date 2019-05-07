@@ -28,12 +28,17 @@ exports.decorateConfig = config => {
   const css = `
     ${config.css || ''}
 
-    .tabs_nav {
+    .header_header {
       background-color: #181A1F;
+      border-bottom: 1px solid #080A0F;
+    }
+
+    .tabs_borderShim {
+      border: 0;
     }
 
     .tab_tab {
-      border-bottom: 1px solid #080A0F;
+      border: 0;
       border-left: 1px solid #080A0F;
       background-color: transparent;
       color: #5F6672;
