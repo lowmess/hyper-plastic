@@ -9,10 +9,10 @@ exports.decorateConfig = config => {
     cyan: '#56B6C2',
     white: '#A9B2C3',
     lightBlack: '#5F6672',
-    lightRed: '#E34234',
-    lightGreen: '#66FF00',
-    lightYellow: '#E5C07B',
-    lightBlue: '#007FFF',
+    lightRed: '#D74E42',
+    lightGreen: '#69C52E',
+    lightYellow: '#E9D16C',
+    lightBlue: '#1085FF',
     lightMagenta: '#8B00FF',
     lightCyan: '#08E8DE',
     lightWhite: '#D4D7D9',
@@ -45,8 +45,9 @@ exports.decorateConfig = config => {
     }
 
     .tab_active {
+      border-top: 1px solid #1085FF;
       background-color: #21252b;
-      color: #A9B2C3;
+      color: #D4D7D9;
     }
   `
 
