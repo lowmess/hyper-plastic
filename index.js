@@ -42,10 +42,15 @@ exports.decorateConfig = config => {
       border-left: 1px solid #080A0F;
       background-color: transparent;
       color: #5F6672;
+      cursor: pointer;
+    }
+
+    .tab_tab:hover {
+      background-color: #A9B2C31A;
     }
 
     .tab_active {
-      border-top: 1px solid #1085FF;
+      border-top: 1px solid #1085FF !important;
       background-color: #21252b;
       color: #D4D7D9;
     }
